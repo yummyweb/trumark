@@ -15,11 +15,11 @@ export function useThemeColor(
   const theme = useColorScheme();
   const colorFromProps = props[theme];
 
-  if (colorFromProps) {
-    return colorFromProps;
-  } else {
-    return Colors[theme][colorName];
-  }
+  // if (colorFromProps) {
+  //   return colorFromProps;
+  // } else {
+  //   return Colors[theme][colorName];
+  // }
 }
 
 type ThemeProps = {
